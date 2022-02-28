@@ -10,8 +10,8 @@
 ### Usage
 ```
 $ python main.py -h
-usage: main.py [-h] [--exec_type {BULK,NORMAL}] [--log_level {INFO,DEBUG,WARNING,ERROR,CRITICAL}] [--log_path LOG_PATH]
-               [--output_path OUTPUT_PATH]
+usage: main.py [-h] [--exec_type {BULK,NORMAL}] [--log_level {INFO,DEBUG,WARNING,ERROR,CRITICAL}] 
+               [--output_path OUTPUT_PATH] [--log_path LOG_PATH]
                config json
 
 Multi-thread enabled Salesforce Data to Parquet/CSV script

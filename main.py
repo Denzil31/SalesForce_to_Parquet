@@ -105,7 +105,7 @@ def get_args() -> argparse.ArgumentParser:
     argp = argparse.ArgumentParser(description='Multi-thread enabled Salesforce Data to Parquet/CSV script')
     argp.add_argument('config', help='Config file name', type=Path)
     argp.add_argument('json', help='Json file name', type=Path)
-    argp.add_argument('--exec_type', help='Select execution type (default BULK)', choices=['BULK', 'NORMAL'], default='NORMAL')
+    argp.add_argument('--exec_type', help='Select execution type (default NORMAL)', choices=['BULK', 'NORMAL'], default='NORMAL')
     argp.add_argument('--log_level', help='Select Log Level (default INFO)', choices=['INFO', 'DEBUG', 'WARNING', 'ERROR', 'CRITICAL'], default='INFO')
     argp.add_argument('--log_path', help='Log path (default ./logs)', default=Path('./logs'), type=Path)
     argp.add_argument('--output_path', help='Output path (defaults to source file path)', default='', type=Path)
