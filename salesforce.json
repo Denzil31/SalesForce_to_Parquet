@@ -1,0 +1,51 @@
+[
+    {
+        "obj_name": "CC Application Data",
+        "obj_api_name": "CC_Application_Data__c",
+        "dst_obj_name": "Application Data",
+        "fields": [
+            {
+                "field_name": "Full Name",
+                "field_api_name": "Upsell_Full_Name__c",
+                "type": "str",
+                "dst_field_name": "FullName",
+                "dst_field_type": "VARCHAR"
+            },
+            {
+                "field_name": "Mobile No",
+                "field_api_name": "Mobile_No__c",
+                "type": "str",
+                "dst_field_name": "MobileNo",
+                "dst_field_type": "VARCHAR"
+            },
+            {
+                "field_name": "PAN No",
+                "field_api_name": "PAN__c",
+                "type": "str",
+                "dst_field_name": "PanNo",
+                "dst_field_type": "VARCHAR"
+            },
+            {
+                "field_name": "Go Green Flag",
+                "field_api_name": "GoGreenFlag__c",
+                "type": "bool",
+                "dst_field_name": "GreenFlag",
+                "dst_field_type": "BOOLEAN"
+            },
+            {
+                "field_name": "Verification Status",
+                "field_api_name": "Verification_Status__c",
+                "type": "str",
+                "dst_field_name": "VerificationStatus",
+                "dst_field_type": "VARCHAR"
+            },
+            {
+                "field_name": "Net Monthly Income",
+                "field_api_name": "Net_Monthly_Income__c",
+                "type": "float",
+                "dst_field_name": "NetMonthlyIncome",
+                "dst_field_type": "NUMBER"
+            }
+        ]
+    }
+]
